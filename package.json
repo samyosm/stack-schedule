@@ -1,0 +1,19 @@
+{
+  "name": "stack-schedule",
+  "version": "1.0.0",
+  "description": "Execute functions at predefined times.",
+  "main": "lib/index.js",
+  "type": "lib",
+  "scripts": {
+    "build" : "tsc -p .",
+    "dev": "npm run build && npm link"
+  },
+  "keywords": [
+    "schedule"
+  ],
+  "author": "Samy Rahmani",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
